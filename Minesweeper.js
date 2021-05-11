@@ -420,7 +420,7 @@ room.onPlayerBallKick = function(player){
 }
 
 room.onPlayerJoin = function(player){
-    console.log(new Date().getHours() + ":" + new Date().getMinutes() + ":" + new Date().getSeconds() + "." + new Date().getMilliseconds() + " ➡️ " + player.name + " [" + player.id + "] has joined. (auth: " + player.auth + " | conn: " + player.conn + " | IP: " + hexToAscii(player.conn) + ")");
+    console.log(new Date().getHours() + ":" + new Date().getMinutes() + ":" + new Date().getSeconds() + "." + new Date().getMilliseconds() + " ➡️ " + player.name + " [" + player.id + "] has joined. (auth: " + player.auth + " | conn: " + player.conn + ")");
 
     if(room.getScores() == null){
 	room.setPlayerTeam(player.id,1);
