@@ -1,4 +1,7 @@
 # MineSweeperBot
+
+<a href="https://discord.gg/t6Wvbqk"><img alt="Discord" src="https://img.shields.io/discord/536193210096156682?color=blue&label=DEVELOPER%27S%20DISCORD"></a>
+
 **Public Minesweeper Bot**
 
 Welcome to the ReadMe section. Here, you can learn how to play Minesweeper HaxBall bot. Firstly, let's start to explain what Mine Sweeper is:
