@@ -17,20 +17,20 @@ https://www.youtube.com/watch?v=ZTl1o3sV5fw (Biggest Minesweeper ever solved)
 
 Now, it's also playable in HaxBall. I have made it playable in HaxBall with (because of the map would be just a trash without a bot). Now let's explain how it's played.
 
-**How Minesweeper is Played? (HaxBall)**
+# How Minesweeper is Played? (HaxBall)
 
 You have press **X** to uncover the cells and avoid uncovering mines. Apart from its original, here, the first cell uncovered can have mine; and the game is always played with 10 mines under 10x10 background. Also, colored balls are used instead of texts, as a difference. For example, you see a red ball instead of red **3** on the cell.
 
 Cells in which you pressed **X** will be marked as checked and colored balls will be settled into the cells (near you) who are adjacents of mines. By the way, these colors are equivalent of the numbers in its original. Now, let's explain which color is which number:
 
-**(1)** Small blue ball: This cell has only **one** adjacent cell who has mine.
-**(2)** Small green ball: This cell has **two** adjacent cells who have mine.
-**(3)** Red ball: This cell has **three** adjacent cells who have mine.
-**(4)** Dark blue ball: This cell has **four** adjacent cells who have mine.
-**(5)** Maroon ball: This cell has **five** adjacent cells who has mine.
-**(6)** Big green ball: This cell has **six** adjacent cells who have mine.
-**(7)** Big black ball: This cell has **seven** adjacent cells who have mine.
-**(8)** Big gray ball: This cell has **eight** adjacent cells who have mine.
+* **(1)** Small blue ball: This cell has only **one** adjacent cell who has mine.
+* **(2)** Small green ball: This cell has **two** adjacent cells who have mine.
+* **(3)** Red ball: This cell has **three** adjacent cells who have mine.
+* **(4)** Dark blue ball: This cell has **four** adjacent cells who have mine.
+* **(5)** Maroon ball: This cell has **five** adjacent cells who has mine.
+* **(6)** Big green ball: This cell has **six** adjacent cells who have mine.
+* **(7)** Big black ball: This cell has **seven** adjacent cells who have mine.
+* **(8)** Big gray ball: This cell has **eight** adjacent cells who have mine.
 
 Also, there are two more colors... They are **mines** and **flags** as expected. Mines are small black balls in the game and flags are big orange balls (the prevent confusion with small red balls) in HaxBall version.
 
@@ -47,14 +47,14 @@ You can mark the suspicious cells with **flags**. How to do this will be shared 
 
 Frankly you will see all the commands when I upload the scripts here but I think that it's benefitful to list some important commands:
 
-**!getadmin**: Get/leave admin rights.
-**!flag**: Adds a flag into the cell where you are. You can add 10 flags at most.
-**!rr**: Reset the game.
+* **!getadmin**: Get/leave admin rights.
+* **!flag**: Adds a flag into the cell where you are. You can add 10 flags at most.
+* **!rr**: Reset the game.
 
 **Other Features**
 
-**Timer**: It runs from zero when the game is started, a warning message is announced when the game is ended in any means.
-**Avatar Change**: Player avatar is changed with respect to the number of checked cells after each press on **X**.
-**Checked Cell Warning**: Player is warned when trying to uncover a checked cell.
-**Mine Warning**: Player is warned after trying to uncover a cell with mine. (It's also counted as loss.)
-**Detailed Logs**: The data is logged after event handlers (like **room.onPlayerJoin**, **room.onPlayerChat** etc.) were triggered.
+* **Timer**: It runs from zero when the game is started, a warning message is announced when the game is ended in any means.
+* **Avatar Change**: Player avatar is changed with respect to the number of checked cells after each press on **X**.
+* **Checked Cell Warning**: Player is warned when trying to uncover a checked cell.
+* **Mine Warning**: Player is warned after trying to uncover a cell with mine. (It's also counted as loss.)
+* **Detailed Logs**: The data is logged after event handlers (like **room.onPlayerJoin**, **room.onPlayerChat** etc.) were triggered.
