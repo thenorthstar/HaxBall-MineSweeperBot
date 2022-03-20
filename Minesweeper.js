@@ -358,7 +358,7 @@ function SquaresWhoDontHaveAdjacents(){ //Shows the number of squares who have n
 
 function CheckEnd(){ //Check game end, if all squares are checked, then player wins!
     if(room.getScores() != null){
-	if(CheckedSquares() >= SquaresWhoHaveAdjacents()){
+	if(CheckedSquares() >= SquaresWhoHaveAdjacents() - SquaresWhoDontHaveAdjacents()){
 	    ShowAllMines();
 	    AddAllAdjacentPoints();
 	    room.setPlayerAvatar(room.getPlayerList().filter(p => p.team == 1)[0].id);
